@@ -1,0 +1,11 @@
+{
+    "shows": [{
+        "id": 1,
+        "date": "1/1/2019",
+        "location": "Portland, OR",
+        "venue": "Roseland Theater",
+        "support_bands": ["Velnias", "Willowbrook"],
+        "fb_event": "http://facebook.com"
+    }]
+
+}
