@@ -1,5 +1,6 @@
 const routes = require('express').Router();
 const shows = require('./shows/show-routes');
+const tours = require('./tours/tour-routes');
 
 routes.get('/', (req, res) => {
     res
@@ -7,6 +8,7 @@ routes.get('/', (req, res) => {
         .json({message: 'Connected!'});
 });
 
-routes.use('/shows', shows);
+routes.use('/api/shows', shows);
+routes.use('/api/tours', tours);
 
 module.exports = routes;
