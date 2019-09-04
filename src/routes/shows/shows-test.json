@@ -2,6 +2,7 @@
     "shows": [
         {
             "id": 1,
+            "artist_id": 1,
             "date": "1/1/2019",
             "location": "Portland, OR",
             "venue": "Roseland Theater",
@@ -11,6 +12,7 @@
         },
         {
             "id": 2,
+            "artist_id": 1,
             "date": "2/1/2019",
             "location": "Eugene, OR",
             "venue": "The WOW Hall",
@@ -20,6 +22,7 @@
         },
         {
             "id": 3,
+            "artist_id": 1,
             "date": "3/1/2019",
             "location": "Salem, OR",
             "venue": "Graveyard Bar",
