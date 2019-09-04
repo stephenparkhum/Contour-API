@@ -18,10 +18,7 @@ const PORT = process.env.PORT || 3000;
 const morganSetting = process.env.NODE_ENV === 'production' ? 'tiny' : 'common'
 app.use(morgan(morganSetting));
 
-
 app.use('/', routes);
-
-
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 
