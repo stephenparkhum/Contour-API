@@ -21,18 +21,6 @@ app.use(morgan(morganSetting));
 
 app.use('/', routes);
 
-// app.get('/', (req, res) => {
-//   res.send('Your server is working!');
-// });
-
-// app.get('/api', (req, res) => {
-//   res.send('Your API route is working!');
-// });
-
-// app.get('/shows', (req, res) => {
-//   res.send('Your SHOWS API route is working!');
-// });
-
 
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
