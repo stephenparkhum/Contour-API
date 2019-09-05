@@ -46,7 +46,7 @@
             "date": "1/5/2020",
             "location": "Spokane, WA",
             "venue": "Fake Venue",
-            "support_bands": ["Velnias", "Willowbrook"],
+            "support_bands": ["Velnias", "Willowbrook", "Jesus Band"],
             "fb_event": "http://facebook.com",
             "tour_id": 2
         }
