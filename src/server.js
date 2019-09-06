@@ -13,6 +13,7 @@ app.use(
     origin: CLIENT_ORIGIN
   })
 );
+app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 const morganSetting = process.env.NODE_ENV === 'production' ? 'tiny' : 'common'
