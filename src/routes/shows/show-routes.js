@@ -83,6 +83,7 @@ shows
         }
 
         console.log(req.body);
+        showList.push(req.body);
         res.send(req.body);
 });
 
