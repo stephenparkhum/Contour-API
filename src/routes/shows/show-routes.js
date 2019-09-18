@@ -1,5 +1,9 @@
+const express = require('express');
 const shows = require('express').Router();
 const showList = require('./shows-test.json');
+const jsonParser = express.json();
+const xss = require('xss');
+
 
 shows
     .get('/', (req, res) => {
@@ -18,6 +22,12 @@ shows
             guarantee,
             fb_event_link
         } = req.body;
+
+        if (!date) {
+            res
+            .status(404)
+            .send(`Show date is required!`);
+        }
 
         console.log(req.body);
         res.send(req.body);
