@@ -3,9 +3,7 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 const cors = require('cors');
-const {
-  CLIENT_ORIGIN
-} = require('./config');
+const { CLIENT_ORIGIN } = require('./config');
 const routes = require('./routes/routes.js');
 
 app.use(

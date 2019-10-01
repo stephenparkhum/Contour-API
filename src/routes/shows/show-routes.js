@@ -1,8 +1,5 @@
 const express = require('express');
 const shows = require('express').Router();
-// const showList = require('./shows-test.json');
-const jsonParser = express.json();
-const xss = require('xss');
 
 const showList = [
     {
